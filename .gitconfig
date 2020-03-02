@@ -1,0 +1,15 @@
+[remote "origin"]
+    url = git@github.com:huangyingw/deeplearning.ai.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+[push]
+    remote = origin
+[gsync]
+    remote = origin
+    branch = master
+[merge]
+    allow = true
+[commit]
+    message = n
+[branch "master"]
+    remote = origin
+    merge = refs/heads/master
